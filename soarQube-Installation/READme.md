@@ -36,11 +36,10 @@ sudo yum install jdk-8u131-linux-x64.rpm -y
 ```
 ### Download and extract the SonarqQube Server software.
 ```sh
-#sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.8.zip
-sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.4.0.54424.zip
-sudo unzip sonarqube-9.4.0.54424.zip
-sudo rm -rf sonarqube-9.4.0.54424.zip
-sudo mv sonarqube-9.4.0.54424.zip sonarqube
+sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.8.zip
+sudo unzip sonarqube-7.8.zip
+sudo rm -rf sonarqube-7.8.zip
+sudo mv sonarqube-7.8 sonarqube
 ```
 
 ## Grant permissions for sonar user to start and manage sonarQube
