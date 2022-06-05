@@ -38,7 +38,7 @@ sudo yum install jdk-8u131-linux-x64.rpm -y
 ```sh
 #sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.8.zip
 sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.9.8.54436.zip
-sudo unzip sonarqube sonarqube-8.9.8.54436.zip
+sudo unzip sonarqube-8.9.8.54436.zip
 sudo rm -rf sonarqube-8.9.8.54436.zip
 sudo mv sonarqube-8.9.8.54436 sonarqube
 ```
