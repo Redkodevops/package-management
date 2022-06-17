@@ -1,3 +1,7 @@
+``` sh
+### Jenkins Script Installation
+```
+
 #!/bin/bash
 #Website for Jenkins documentation = "https://www.jenkins.io/doc/"
 #Creating hostname jenkins
@@ -20,6 +24,8 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 sudo su - ec2-user
 
-#Unlocking Jenkins
+``` sh
+###Unlocking Jenkins and Creating temporary password
+```
 #When you first access a new Jenkins instance, you are asked to unlock it using an automatically-generated password.
 #Browse to http://localhost:8080 (or whichever port you configured for Jenkins when installing it) and wait until the Unlock Jenkins page appears.
