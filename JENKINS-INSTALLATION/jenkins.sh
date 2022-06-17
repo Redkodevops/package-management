@@ -3,7 +3,7 @@
 #Creating hostname jenkins
 sudo hostname jenkins
 #Installing nano unzip wget 
-sudo yum install nano unzip wget -y
+sudo yum install nano unzip wget git -y
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
     https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
